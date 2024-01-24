@@ -1,6 +1,5 @@
-@media (min-width :992px) {}
-@media(min-width: 768px) and (min-width :992px){}
-@media(min-width: 320px){}
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -57,4 +56,27 @@ body{
 }
 .navbar a:hover{
     color: #0ef;
+}
+
+///////////////////////////////////////////////////
+
+@media(min-width: 320px) and (max-width: 767px){
+    .header{
+       
+        width: 96%;
+    }
+    .logo{
+        font-size: 15px;
+    }
+    .navbar{
+        margin-left: 0px;
+        
+    }
+    .navbar a{
+        font-size: 14px;
+        margin-left: 15px;
+    
+    }
+    
+    
 }

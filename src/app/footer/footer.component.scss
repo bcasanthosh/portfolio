@@ -1,6 +1,4 @@
-@media (min-width :992px) {}
-@media(min-width: 768px) and (min-width :992px){}
-@media(min-width: 767px){}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -55,10 +53,43 @@ body{
 }
 .contact-nav{
     font-size: 25px;
-    color: #fff;
+    color: red;
     text-decoration: none;
     font-weight: 500;
 }
 .Contact p{
     color: #fff;
+}
+
+//////////////////////////////////
+
+@media(min-width: 320px) and (max-width: 767px){
+.Contact{
+    height: 100%; 
+    padding: 0px;
+}
+.contact-nav{
+color: red;
+}
+.contact-nav a{
+    font-size: 15px;
+    color: #2dc038;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.Contact-scl{
+    margin-left: 0px;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    display: contents;
+}
+.Contact-scl a{
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+}
+.Contact p{
+    font-size: larger;
+}
 }

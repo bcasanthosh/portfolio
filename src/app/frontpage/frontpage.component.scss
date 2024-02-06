@@ -255,12 +255,15 @@ span {
         width: 250px;
         margin-left: 0px;
     }
-    .about-content p{
+
+    .about-content p {
         font-size: 15px;
     }
-    .about-content h3{
+
+    .about-content h3 {
         font-size: 25px;
     }
+
     .skill {
         position: static;
         display: flex;
@@ -272,12 +275,37 @@ span {
 
     .skill-content {
         display: flex;
-        flex-direction: column
+        flex-direction: column;
+        margin: auto;
     }
-    .skill p{
+
+    .skill p {
         font-size: 15px;
     }
-    .skill h2{
+
+    .skill h2 {
         font-size: 40px;
     }
+
+    .html {
+        margin: 15px;
+        width: 80px;
+    }
+
+    .css {
+        margin: 15px;
+        width: 80px;
+    }
+
+    .js {
+        margin: 15px;
+        width: 80px;
+    }
+
+    .angular {
+        margin: 15px;
+        width: 80px;
+    }
+
+    
 }
